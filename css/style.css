@@ -1,0 +1,768 @@
+.btn {
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid #3bf3c5;
+    cursor: pointer;
+    overflow: hidden;
+    color: #3bf3c5;
+    border-radius: 0;
+    font-size: 15px;
+    /*width: 250px;*/
+}
+
+.btn:hover {
+    background-color: #3fc2a1 !important;
+    color: #3bf3c5 !important;
+    border: 1px solid #3b80ac !important;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    /*text-align: center;*/
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+
+/*font color:*/
+
+.fontblue {
+    color: #3bf3c5;
+}
+
+.fontwhite {
+    color: #fff;
+}
+
+
+/*line*/
+
+.header-line {
+    border-bottom: 2px solid #3bf3c5;
+    border-color: #3bf3c5;
+    position: relative;
+    align-content: center;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.navbar a {
+    opacity: 0.7;
+}
+
+.navbar a:hover {
+    opacity: 1;
+}
+
+
+/*Rectangle*/
+
+.security-border {
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #ccc;
+    /*height: 550px;*/
+}
+
+
+/*space between tags*/
+
+.smspace {
+    margin-top: 60px;
+}
+
+.normalspace {
+    margin-top: 90px;
+}
+
+
+/*space between tags*/
+
+
+/*navigator*/
+
+.logmimg {
+    height: 28px;
+    width: auto;
+    margin-bottom: -10px;
+}
+
+.logbtn {
+    color: #3bf3c5;
+    border: 1px solid #3bf3c5;
+    border-radius: 0;
+    font-size: 13px;
+    height: 28px;
+}
+
+
+/*.logmimg:hover {
+    background-image: url(../img/logo/Logo Horizontal White@3x.png) !important;
+    height: 26px;
+    width: auto;
+}*/
+
+
+/*End navigator*/
+
+.header {
+    height: 950px;
+    width: 100%;
+    /*padding: 140px 0 30px;*/
+    align-content: center;
+    /*margin-top: 50px;*/
+    background-image: url(../img/background/business-man-on-mobile.jpeg);
+    /*background-position-y: -160px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.headergrudient {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(67, 75, 97, 0.5), rgba(90, 177, 166, 0.4));
+}
+
+.header h1 {
+    font-size: 66px;
+    margin-top: 350px;
+    font-weight: normal !important;
+    color: #3bf3c5;
+}
+
+.header button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid #3bf3c5;
+    cursor: pointer;
+    overflow: hidden;
+    color: #3bf3c5;
+    width: 250px;
+}
+
+.header button:hover {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    color: #3bf3c5;
+    border: 2px solid #3bf3c5;
+}
+
+.header p {
+    padding-top: 30px;
+}
+
+.header .btn {
+    border-radius: 0;
+    margin: 100px;
+}
+
+@media (max-width:768px) {
+    .header {}
+}
+
+
+/*End Header*/
+
+
+/*Services*/
+
+.services h2 {
+    padding-top: 60px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.fontser {
+    font-size: 40px !important;
+    margin-top: -16px;
+}
+
+.fontser1 {
+    font-size: 20px;
+    margin-top: 25px;
+    padding-bottom: 7px;
+}
+
+.imgline {
+    width: 540px;
+    padding-bottom: 8px;
+}
+
+.services p {
+    font-size: 20px;
+}
+
+.services button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid #3bf3c5;
+    cursor: pointer;
+    overflow: hidden;
+    color: #3bf3c5;
+    width: 180px;
+    height: 44px;
+    margin-top: 27px;
+}
+
+.services button:hover {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    color: #3bf3c5;
+    border: 2px solid #3bf3c5;
+}
+
+.services .btn {
+    border-radius: 0;
+}
+
+.macimg {
+    width: 800px;
+}
+
+@media (max-width:768px) {
+    .services {
+        padding: 30px;
+    }
+    .macimg {
+        width: 300px;
+        /*padding: 10px;*/
+    }
+}
+
+
+/*End Services*/
+
+
+/*Products page*/
+
+.products {
+    height: 865px;
+    width: 100%;
+    background-image: url(../img/background/products1.png);
+    /*background-position-y: -160px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 40px;
+    padding-top: 120px;
+    color: #3bf3c5;
+}
+
+.fontpro {
+    font-size: 38px;
+    color: #3bf3c5;
+    margin-top: -16px;
+}
+
+.products h4 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.products p {
+    font-size: 21px;
+    padding-top: 20px;
+}
+
+.penFont {
+    font-size: 23px;
+    padding-top: 20px;
+    color: #3bf3c5;
+}
+
+.products button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid #3bf3c5;
+    cursor: pointer;
+    overflow: hidden;
+    color: #3bf3c5;
+    width: 240px;
+    height: 44px;
+    margin-top: 30px;
+}
+
+.products button:hover {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    color: #3bf3c5;
+    border: 2px solid #3bf3c5;
+}
+
+.products .btn {
+    border-radius: 0;
+}
+
+.printimg {
+    padding-top: 20px;
+}
+
+
+/*End Products page*/
+
+
+/*Subscribe for*/
+
+.subscibe {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    float: left;
+}
+
+.subscibe h2 {
+    font-size: 40px;
+    padding-top: 28px;
+}
+
+.subscibe p {
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+.form-control {
+    margin-top: 35px;
+    width: 500px;
+    background-color: #f5f5f5;
+}
+
+.subscibe button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid #3bf3c5;
+    cursor: pointer;
+    overflow: hidden;
+    color: #3bf3c5;
+    width: 195px;
+    height: 46px;
+    margin-left: 20px;
+}
+
+.subscibe button:hover {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    color: #3bf3c5;
+}
+
+.subscibe .btn {
+    border-radius: 0;
+}
+
+
+/*End subscribe for*/
+
+
+/*Footer*/
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: #263652;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: #fff;
+}
+
+.footimg {
+    padding-top: 100px;
+    width: 150px;
+    height: auto;
+}
+
+.footertext {
+    padding-top: 100px;
+    line-height: 24px;
+}
+
+.footer i {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding-top: 11px;
+    outline-width: 10px;
+    margin-left: 15px;
+}
+
+
+/*end footer*/
+
+
+/*Online fax*/
+
+.onlineheader {
+    width: 100%;
+    height: 698px;
+    /*padding: 140px 0 30px;*/
+    align-content: left;
+    /*margin-top: 50px;*/
+    background-image: url(../img/background/onlinefax.png);
+    /*opacity: 0.7;*/
+    /*background-position-y: -160px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: left;
+    margin-top: -40px;
+}
+
+.onlineheadergrudient {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(38, 54, 82, 0.5), rgba(59, 243, 197, 0.4));
+}
+
+.onlineheader h1 {
+    font-size: 50px;
+    margin-top: 250px;
+    margin-bottom: 55px;
+    font-weight: normal !important;
+    color: #3bf3c5;
+}
+
+.onlineheader button {
+    background-color: #3bf3c5;
+    background-repeat: no-repeat;
+    border: 2px solid #3bf3c5;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fff;
+    width: 250px;
+    margin-top: 70px;
+}
+
+.onlineheader button:hover {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    color: #3bf3c5;
+    border: 2px solid #3bf3c5;
+}
+
+.onlineheader p {
+    font-size: 18px;
+    line-height: 4px;
+}
+
+.onlineheader .btn {
+    border-radius: 0;
+    margin-bottom: 40px;
+}
+
+.onlineimg {
+    width: 115%;
+    margin-top: -25px;
+}
+
+@media (max-width:768px) {
+    .onlineheader {}
+}
+
+
+/*end online fax*/
+
+
+/*Choose moove*/
+
+.choose {
+    align-content: center;
+    text-align: center !important;
+    height: 650px;
+}
+
+.choose h4 {
+    font-size: 25px;
+    padding-top: 40px;
+    opacity: 0.5;
+}
+
+.choose p {
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+.choose img {
+    height: 50px;
+}
+
+.rowpadding {
+    padding-left: 40px;
+}
+
+
+/*End choose*/
+
+
+/*Demo*/
+
+.demo {
+    margin-top: 60px;
+    background-color: #fff;
+    height: 550px;
+}
+
+.demo h4 {
+    font-size: 25px;
+    padding-top: 40px;
+    opacity: 0.5;
+    padding-left: 50px;
+}
+
+.demo img {
+    padding-top: 40px;
+    height: 379px;
+}
+
+.demo p {
+    padding-top: 40px;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+
+/*End Demo*/
+
+
+/*Security Page*/
+
+.bg-security {
+    background-image: url(../img/background/security.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px !important;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+}
+
+.bg-security p {
+    color: white;
+}
+
+.security {
+    margin: 40px 0px;
+}
+
+.security-border p {
+    position: relative;
+    text-align: center;
+}
+
+.security-text {
+    font-size: 15px;
+    color: #3bf3c5;
+    margin-top: 20px;
+}
+
+.security-header-line {
+    border-top: 2px solid;
+    border-color: #3bf3c5;
+    width: 200px;
+    margin-left: -100px;
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+}
+
+.security-top-line {
+    border-top: 1px solid;
+    width: 100px;
+    margin-left: -50px;
+    position: relative;
+    left: 50%;
+    margin-bottom: 30px;
+}
+
+.security-bottom-line {
+    border-top: 1px solid;
+    width: 100px;
+    margin-left: -50px;
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+}
+
+.security-icon {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.security-data-centers {
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/background/security2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.security-data-centers ul {
+    margin: auto;
+    width: 60%;
+    text-align: left;
+}
+
+.security-data-centers li {
+    margin-top: 10px;
+}
+
+.security-never-sleeps {
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/background/security1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.security-never-sleeps h3 {
+    color: #3bf3c5;
+    margin-top: 50px;
+}
+
+.security-never-sleeps a {
+    color: #3bf3c5;
+}
+
+.security-download-pdf {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.security-download-pdf button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 3px solid #3a3939;
+    border-radius: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #867c7c;
+    width: 270px;
+    height: 44px;
+    margin-top: 80px;
+    position: relative;
+    left: 0%;
+}
+
+
+/*end Security Page*/
+
+
+/*carrier*/
+
+.carrier {
+    background-image: url(../img/background/onlinefax1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px !important;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+}
+
+.carrier div {
+    margin-top: 90px;
+}
+
+.carrier h2 {
+    line-height: 15px;
+}
+
+.carrierpadding {
+    margin-top: 60px !important;
+}
+
+
+/*End carrier*/
+
+
+/*Several*/
+
+.several-border {
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #ccc;
+    width: 74%;
+    height: 368px;
+}
+
+.security-icon {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.several {
+    height: 1100px;
+    width: 100%;
+    /*padding: 140px 0 30px;*/
+    align-content: center;
+    /*margin-top: 50px;*/
+    /*background-position-y: -160px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.layout {
+    margin-top: 80px;
+    /*margin-left: 40px;*/
+}
