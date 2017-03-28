@@ -11,45 +11,83 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
-
+    <link href="css/navbar.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="nav-container">
+        <nav>
 
-    <!--  NAVIGATIOR-->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="myNavbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand"><img src="./img/logo/Logo Horizontal.png" class="logmimg"></a>
+            <div class="nav-bar">
+                <div class="module left">
+                    <a href="index.html">
+                        <img class="logo logo-light" alt="Foundry" src="./img/logo/logo.png">
+                        <div class="vnu"><img class="logo logo-dark" alt="Foundry" src="./img/logo/logodark.png">
+                        </div>
+                    </a>
+                </div>
+                <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="module-group right">
+                    <div class="module left">
+                        <ul class="menu">
+                            <li class="has-dropdown">
+                                <a href="#">Products <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                <ul class="mega-menu">
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="title">cloud fax</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">cloud sign<br> </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="title">Cloud print<br></span>
+                                            </li>
+                                            <li>
+                                                <a href="#"> </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">company</a>
+                            </li>
+                            <li class="vpf">
+                                <a href="#">blog </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="module right">
+                        <a class="btn btn-sm" href="#">Login</a>
+                    </div>
+                </div>
+
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#header">PRODUCTS
-                        </a></li>
-                    <li><a href="#services">COMPANY</a></li>
-                    <li><a href="#pricing">BLOG</a></li>
-                    <li><a href="#pricing"><button class="btn btn-lg btn-default logbtn"><p style = "margin-top:-5px;">LOGIN</p></button></a></li>
-                </ul>
-            </div>
-        </div>
+        </nav>
     </div>
     <!--End Navigator-->
 
     <!--Header-->
-
-    <div id="header" class="header">
+    <div id="header" class="header" style="background-image: url(./img/background/business-man-on-mobile.jpeg);">
         <div class="headergrudient">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h1>MOOVE</h1>
-                        <p>Document workflow for the 2lst century</p>
-                        <button class="btn btn-lg btn-default">MOOVE FASTER</button>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <h1 style="margin-top: 200px">MOOVE</h1>
+                        <h4>Document workflow for the 21st century</h4>
+                        <div class="btn btn-lg btn-default button-class">MOOVE FASTER</div>
                     </div>
                 </div>
             </div>
@@ -62,15 +100,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <h2>Software for the</h2>
-                    <p class="fontser"><b>modern workplace</b>
-                    </p>
-                    <p class="fontser1">MOOVE IS BUILT WITH THE MOBILE USER IN MIND</p>
-                    <img src="./img/background/underline1.png" alt="" class="imgline">
-                    <P>We aim to solve the pain points around document workflow.<br> Securely send, sign. and print documents even while on the go. Enterprise-scal applications without the clunkiness(ya we just said that)</P>
+                    <h3><span style="opacity: 0.5;">Software for the </span><br>modern workplace</h3>
+                    <p style="padding-top:33px; opacity: 0.5;">MOOVE IS BUILT WITH THE MOBILE USER IN MIND</p>
+                    <p class="security-header-line" style="margin-top: 29px; width: 80%;"></p>
+                    <P style="margin-top: 49.03px;">We aim to solve the pain points around document workflow.<br> Securely send, sign. and print documents even while on the go. Enterprise-scal applications without the clunkiness(ya we just said that)</P>
 
-                    <button class="btn btn-lg btn-default">
-                        <p style="font-size:15px;">LEARN MORE</p>
+                    <button class="btn btn-lg btn-default button-class" style="margin-top: 30px;">
+                        <span>LEARN MORE</span>
                     </button>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -82,24 +118,23 @@
     <!--end software for the modern workplace-->
 
     <!--Products-->
-    <div id="products" class="products">
+    <div id="products" class="products bg-security" style="background-image: url(./img/background/products1.png);">
         <div class="container">
-            <h2>Explore our</h2>
-            <p class="fontpro">products</p>
-            <div class="row">
+            <h3 style="margin-top: 100px; color:#3BF3C5;">Explore our<br>products</h3>
+            <div class="row" style="">
                 <div class="col-lg-6 col-lg-6">
-                    <img src="./img/icons/print1.png" alt="" class="printimg">
+                    <img src="./img/icons/blueprint.png" alt="" class="iconsize" style="margin-top: 82px;">
 
-                    <h4>MOOVE FAX</h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lerem Ipsum is than it has a more-or-less normal distribution of letters, as opposed to
+                    <h3>MOOVE FAX</h3>
+                    <p style="color:#fff;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lerem Ipsum is than it has a more-or-less normal distribution of letters, as opposed to
                         using 'Content here, content here', making it look like readable english. </p>
 
-                    <button class="btn btn-lg btn-default">LEARN MORE</button>
+                    <button class="btn btn-lg btn-default button-class" style="margin-top: 72px; margin-bottom:73px;">LEARN MORE</button>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <img src="./img/icons/pen1.png" alt="" class="printimg">
-                    <h4>MOOVE SIGN</h4>
-                    <P class="penFont">COMING SOON </P>
+                    <img src="./img/icons/pen.png" alt="" class="iconsize" style="margin-top: 82px;">
+                    <h3>MOOVE SIGN</h3>
+                    <P style="margin-bottom: 263px;  color:#3BF3C5;">COMING SOON </P>
                 </div>
             </div>
         </div>
@@ -107,53 +142,46 @@
     <!--End Products-->
 
     <!--subscribe-->
-    <div id="subscibe" class="subscibe">
-        <div class="container">
+    <div id=" subscibe " class="subscibe">
+        <div class="container-fluid">
+            <h3 style="margin-top: 50px;"><span style="opacity: 0.5;">Subscibe for</span><br>updates
+            </h3>
             <div class="row">
-                <div class="col-lg-2 col-md-2"></div>
-                <div class="col-lg-8 col-md-8">
-                    <h2>Subscibe for</h2>
-                    <p><b>updates</b>
-                    </p>
-                    <div>
-                        <input type="text" class="input-lg form-control" style="display: inline;" placeholder="Email">
-                        <button class="btn btn-lg btn-default">GET FREE TRIAL</button>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2"></div>
-
+                <input type="text" class="input-lg form-control home-form-control" placeholder="Email">
+                <button class="btn btn-lg btn-default btn-free-trial">GET FREE TRIAL</button>
             </div>
         </div>
     </div>
+
+
     <!--end subscribe-->
 
     <!--Footer-->
     <div id="footer" class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4" style="line-height: 70px">
-                    <img src="./img/logo/Logo Horizontal White.png" alt="#" class="footimg">
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 " style="line-height: 30px ">
+                    <img src="./img/logo/Logo Horizontal White.png " alt="# " class="footimg">
                     <p>@Copyright 2017 Moove LLC-All Rights Resered</p>
                 </div>
-                <div class="col-lg-4 col-md-4 footertext">
-                    <div class="col-lg-6 col-md-6">
-                        <p>HOME</p>
-                        <p>ABOUT</p>
-                        <p>FEATURES</p>
-                        <p>PRICING</p>
+                <div class="col-lg-4 col-md-4 footertext ">
+                    <div class="col-lg-6 col-md-6 ">
+                        <p><a href="#" class="" style="color:#fff;">HOME</a></p>
+                        <p><a href="#" class="" style="color:#fff;">ABOUT</a></p>
+                        <p><a href="#" class="" style="color:#fff;">FEATURES</a></p>
+                        <p><a href="#" class="" style="color:#fff;">PRICING</a></p>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                        <p>PRESS</p>
-                        <p>FAQ</p>
-                        <p>CONTACT</p>
-
+                    <div class="col-lg-6 col-md-6 ">
+                        <p><a href="#" class="" style="color:#fff;">PRESS</a></p>
+                        <p><a href="#" class="" style="color:#fff;">FAQ</a></p>
+                        <p><a href="#" class="" style="color:#fff;">CONTACT</a></p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4" style="text-align: center; padding-top:100px;">
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <div class="col-lg-4 col-md-4 " style="text-align: center; padding-top:78px; padding-bottom: 138.72px;">
+                    <a href="# "><i class="fa fa-twitter" aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-facebook " aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-pinterest " aria-hidden="true "></i></a>
                 </div>
 
             </div>
@@ -162,6 +190,7 @@
     <!--end footer-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
     <script src="js/bootstrap.min.js "></script>
+    <script src="js/script.js "></script>
 
 </body>
 

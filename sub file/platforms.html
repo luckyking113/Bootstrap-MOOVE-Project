@@ -11,89 +11,112 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link href="../font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
 
 </head>
 
 <body>
-
-    <!--  NAVIGATIOR-->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="myNavbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand"><img src="../img/logo/Logo Horizontal.png" class="logmimg"></a>
+    <div class="nav-container">
+        <nav>
+            <div class="nav-bar">
+                <div class="module left">
+                    <a href="index.html">
+                        <img class="logo logo-light" alt="Foundry" src="../img/logo/logo.png">
+                        <div class="vnu"><img class="logo logo-dark" alt="Foundry" src="../img/logo/logodark.png">
+                        </div>
+                    </a>
+                </div>
+                <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="module-group right">
+                    <div class="module left">
+                        <ul class="menu">
+                            <li class="has-dropdown">
+                                <a href="#">Products <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                <ul class="mega-menu">
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="title">cloud fax</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">cloud sign<br> </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="title">Cloud print<br></span>
+                                            </li>
+                                            <li>
+                                                <a href="#"> </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">company</a>
+                            </li>
+                            <li class="vpf">
+                                <a href="#">blog </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="module right">
+                        <a class="btn btn-sm" href="#">Login</a>
+                    </div>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#header">PRODUCTS
-                        </a></li>
-                    <li><a href="#services">COMPANY</a></li>
-                    <li><a href="#pricing">BLOG</a></li>
-                    <li><a href="#pricing"><button class="btn btn-lg btn-default logbtn"><p style = "margin-top:-5px;">LOGIN</p></button></a></li>
-                </ul>
-            </div>
-        </div>
+        </nav>
     </div>
     <!--End Navigator-->
+
 
     <!--Header-->
 
     <div id="platforms" class="platforms bg-security" style="background-image: url(../img/background/platforms.png);">
         <div class="headergrudient">
             <div class="container">
-                <h1>The Platforms</h1>
-                <div class="row">
-                    <!--<div class="col-lg-12">
-                        <h1 style="font-size: 40px; margin-top: 350px">SECURITY</h1>
-                        <p class="security-header-line"></p>
-                        <p style="font-size: 18px;">In todayʼs ever-evolving technology environment, itʼs more crucial than ever to protect sensitive data from interception. We take data security seriously. We have built our solution to meet or exceed various industry regulatory
-                            standards including HIPAA, PCI DSS, SOX, and others. Learn more about some of the steps we take to safeguard our clients data below.</p>
-                    </div>-->
-                    <div class="col-lg-3 col-md-3">
-                        <div class="packages">
-                            <img src="../img/icons/blueprint.png" alt="" class="iconsize">
-                            <p>Fax-Only Infrastructure</p>
-                            <hr>
-                            <p><b>Been struggling to find a reliable fax solution? We feel your pain.
-                                That's why Moove was built. You see, most VoIP providers look at fax as just an add on service.
-                                A box to be checked on the feature list. Voice and fax don't mix. Our solution is designed and built specifically for fax.
-                                It's built for carrier and enterprise level scalability in mind</b></p>
+                <h3 style="margin-top: 50px;color:#3bf3c5">The Platforms</h3>
+                <div class="row equal-height" style="margin-top:100px; margin-bottom: 60px;">
+                    <div class="col-lg-3 col-md-3 equal-height-child">
+                        <div class="sev-packages">
+                            <img src=" ../img/icons/blueprint.png " alt=" " style="height: 60px;">
+                            <p style="margin-top:30px; opacity:0.5; letter-spacing: 1.05px; ">Fax-Only Infrastructure</p>
+                            <p class="platforms-header-line "></p>
+                            <p style="margin-top:20px;text-align: left; margin-bottom: 50px;">Been struggling to find a reliable fax solution? We feel your pain. That's why Moove was built. You see, most VoIP providers look at fax as just an add on service. A box to be checked on the feature list. Voice and fax don't
+                                mix. Our solution is designed and built specifically for fax. It's built for carrier and enterprise level scalability in mind.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3">
-                        <div class="packages">
-                            <img src="../img/icons/cloud.png" alt="" class="iconsize">
-                            <p>Automatic Cloud Storage</p>
-                            <hr>
-                            <p><b>One of the big benefits of moving to cloud faxing is that every fax sent and 
-                                received is automatically stored securely in the cloud. Never lose another fax.
-                                Tag your faxes to be searched latter. Access your fax history from any device.</b></p>
+                    <div class="col-lg-3 col-md-3 equal-height-child">
+                        <div class="sev-packages">
+                            <img src=" ../img/icons/cloud.png " alt=" " style="height: 60px;">
+                            <p style="margin-top:30px; opacity:0.5; letter-spacing: 1.05px; ">Automatic Cloud Storage</p>
+                            <p class="platforms-header-line "></p>
+                            <p style="margin-top:20px; margin-bottom:90px; text-align: left;">One of the big benefits of moving to cloud faxing is that every fax sent and received is automatically stored securely in the cloud. Never lose another fax. Tag your faxes to be searched latter. Access your fax history from
+                                any device.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3">
-                        <div class="packages">
-                            <img src="../img/icons/call.png" alt="" class="iconsize">
-                            <p>Virtual Fax Numbers</p>
-                            <hr>
-                            <p><b>Every Moove plan comes with a virtual fax number. Faxes that come to this number are
-                                 automatically sent to you via email and stroed securely in th cloud. Have an existing 
-                                 fax number you want to keep? No problem. You can have your existing fax number ported 
-                                 over and continue to use it with your Moove service plan.</b></p>
+                    <div class="col-lg-3 col-md-3 equal-height-child">
+                        <div class="sev-packages">
+                            <img src=" ../img/icons/call.png " alt=" " style="height: 60px;">
+                            <p style="margin-top:30px; opacity:0.5; letter-spacing: 1.05px; ">Virtual Fax Numbers</p>
+                            <p class="platforms-header-line "></p>
+                            <p style="margin-top:20px; text-align: left; margin-bottom: 50px;">Every Moove plan comes with a virtual fax number. Faxes that come to this number are automatically sent to you via email and stroed securely in th cloud. Have an existing fax number you want to keep? No problem. You can have
+                                your existing fax number ported over and continue to use it with your Moove service plan.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3">
-                        <div class="packages">
-                            <img src="../img/icons/bluekey.png" alt="" class="iconsize">
-                            <p>Security and Compliance</p>
-                            <hr>
-                            <p><b>Moove is built with regulatory compliance in mind. We can help you get (or stay) HIPAA compliant.
-                                We use advanced encryption and security technology to protect your data. User authentication, encrypted
-                                 perimeter defense, and routine data backup are just a few of the things we do to keep your data secure. 
-                                 Contact us if you need us to sign a BAA.</b></p>
+                    <div class="col-lg-3 col-md-3 equal-height-child">
+                        <div class="sev-packages">
+                            <img src=" ../img/icons/bluekey.png " alt=" " style="height: 60px;">
+                            <p style="margin-top:30px; opacity:0.5; letter-spacing: 1.05px; ">Security and Compliance</p>
+                            <p class="platforms-header-line "></p>
+                            <p style="margin-top:20px; text-align: left;">Moove is built with regulatory compliance in mind. We can help you get (or stay) HIPAA compliant. We use advanced encryption and security technology to protect your data. User authentication, encrypted document exchange, advanced
+                                perimeter defense, and routine data backup are just a few of the things we do to keep your data secure. Contact us if you need us to sign a BAA.</p>
                         </div>
                     </div>
                 </div>
@@ -103,13 +126,13 @@
     <!--End Header-->
 
     <!--Get Free Trial-->
-    <div class="pffooter" style="text-align: center;">
-        <div class="container">
-            <div class="row">
-                <h2 style="color: #3bf3c5;">Heard enough?</h2>
-                <p>First 14 days are on us</p>
-                <p>FREE-No Obligation</p>
-                <button class="btn btn-lg btn-default">GET FREE TRIAL</button>
+    <div class="pffooter " style="text-align: center; ">
+        <div class="container ">
+            <div class="row ">
+                <h3 style="color: #3bf3c5; margin-top:50px;">Heard enough?</h3>
+                <p>First 14 days are on us<br>FREE-No Obligation</p>
+
+                <button class="btn btn-lg btn-default button-class" style="margin-top:46px;margin-bottom: 47px;">GET FREE TRIAL</button>
             </div>
         </div>
     </div>
@@ -117,22 +140,20 @@
     <!--end Security Download PDF-->
 
     <!--world map-->
-    <div class="worldmap" id="worldmap">
-        <div class="container">
-            <h2 style="margin-top: 80px;"><span style="opacity: 0.5;">The People Behind</span> MOOVE</h2>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 worldmap">
-                    <img src="../img/background/worldmap.jpg" alt="">
+    <div class="worldmap " id="worldmap ">
+        <div class="container " style="padding-left: 30px;">
+            <div class="row ">
+                <h3 style="margin-top: 50px; "><span style="opacity: 0.5; ">The People Behind</span> MOOVE</h3>
+                <div class="col-lg-6 col-md-6 worldmap ">
+                    <img src="../img/background/worldmap.jpg " alt=" ">
                 </div>
-                <div class="col-lg-6 col-md-6" style="padding-top: 40px;">
-                    <h4 style="text-align: left;">U.S. Based Support</h4>
-                    <p><b>We know there's nothing worse than having an important question or issue come up just to have your support needs routed to a foreign call center. All of our support team are based in the United States.</b></p>
+                <div class="col-lg-6 col-md-6 " style="padding-top: 40px; ">
+                    <h3 style="text-align: left; opacity: 0.5;">U.S. Based Support</h3>
+                    <h4 style="text-align: left; margin-top:31px;">We know there's nothing worse than having an important question or issue come up just to have your support needs routed to a foreign call center. All of our support team are based in the United States.</h4>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <h4 style="text-align: left;">Dedicated Account Management</h4>
-                    <p><b>At Foiply, you're not just another account.
-                        We care about you and you will get a dedicated accoount manager.
-                        We believe in going the extra mile for our customers and building lasting relationships.</b></p>
+                <div class="col-lg-6 col-md-6 ">
+                    <h3 style="text-align: left; opacity: 0.5; margin-top: 56px;">Dedicated Account Management</h3>
+                    <h4 style="text-align: left; margin-top:31px; margin-bottom: 117px;">At Foiply, you're not just another account. We care about you and you will get a dedicated accoount manager. We believe in going the extra mile for our customers and building lasting relationships.</h4>
                 </div>
             </div>
         </div>
@@ -143,30 +164,29 @@
     <!--Footer-->
     <div id="footer" class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4" style="line-height: 70px">
-                    <img src="../img/logo/Logo Horizontal White.png" alt="#" class="footimg">
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 " style="line-height: 30px ">
+                    <a href="" class=""><img src="../img/logo/Logo Horizontal White.png " alt="# " class="footimg"></a>
                     <p>@Copyright 2017 Moove LLC-All Rights Resered</p>
                 </div>
-                <div class="col-lg-4 col-md-4 footertext">
-                    <div class="col-lg-6 col-md-6">
-                        <p>HOME</p>
-                        <p>ABOUT</p>
-                        <p>FEATURES</p>
-                        <p>PRICING</p>
+                <div class="col-lg-4 col-md-4 footertext ">
+                    <div class="col-lg-6 col-md-6 ">
+                        <p><a href="#" class="" style="color:#fff;">HOME</a></p>
+                        <p><a href="#" class="" style="color:#fff;">ABOUT</a></p>
+                        <p><a href="#" class="" style="color:#fff;">FEATURES</a></p>
+                        <p><a href="#" class="" style="color:#fff;">PRICING</a></p>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                        <p>PRESS</p>
-                        <p>FAQ</p>
-                        <p>CONTACT</p>
-
+                    <div class="col-lg-6 col-md-6 ">
+                        <p><a href="#" class="" style="color:#fff;">PRESS</a></p>
+                        <p><a href="#" class="" style="color:#fff;">FAQ</a></p>
+                        <p><a href="#" class="" style="color:#fff;">CONTACT</a></p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4" style="text-align: center; padding-top:100px;">
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <div class="col-lg-4 col-md-4 " style="text-align: center; padding-top:78px; padding-bottom: 138.72px;">
+                    <a href="# "><i class="fa fa-twitter" aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-facebook " aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-pinterest " aria-hidden="true "></i></a>
                 </div>
 
             </div>
@@ -175,6 +195,7 @@
     <!--end footer-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
     <script src="../js/bootstrap.min.js "></script>
+    <script src="../js/script.js "></script>
 
 </body>
 

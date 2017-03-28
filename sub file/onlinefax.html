@@ -12,82 +12,130 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link href="../font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
-
-
+    <link href="../css/navbar.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <!--  NAVIGATIOR-->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="myNavbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand"><img src="../img/logo/Logo Horizontal.png" class="logmimg"></a>
+    <div class="nav-container">
+        <nav>
+            <div class="nav-bar">
+                <div class="module left">
+                    <a href="index.html">
+                        <img class="logo logo-light" alt="Foundry" src="../img/logo/logo.png">
+                        <div class="vnu"><img class="logo logo-dark" alt="Foundry" src="../img/logo/logodark.png">
+                        </div>
+                    </a>
+                </div>
+                <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="module-group right">
+                    <div class="module left">
+                        <ul class="menu">
+                            <li class="has-dropdown">
+                                <a href="#">Products <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                <ul class="mega-menu">
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="title">cloud fax</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">cloud sign<br> </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="title">Cloud print<br></span>
+                                            </li>
+                                            <li>
+                                                <a href="#"> </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">company</a>
+                            </li>
+                            <li class="vpf">
+                                <a href="#">blog </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="module right">
+                        <a class="btn btn-sm" href="#">Login</a>
+                    </div>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#header">PRODUCTS
-                        </a></li>
-                    <li><a href="#services">COMPANY</a></li>
-                    <li><a href="#pricing">BLOG</a></li>
-                    <li><a href="#pricing"><button class="btn btn-lg btn-default logbtn"><p style = "margin-top:-5px;">LOGIN</p></button></a></li>
-                </ul>
-            </div>
-        </div>
+        </nav>
     </div>
     <!--End Navigator-->
 
     <!--Header-->
 
-    <div id="onlineheader" class="onlineheader">
+    <div id="onlineheader" class="onlineheader" style="background-image: url(../img/background/onlinefax.png);">
         <div class="headergrudient">
-            <div class="container">
+            <div class="container" style="padding-left:30px; padding-right: 20px;">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <h1><span style="color:#fff;">ONLINE FAX</span> EVOLVED</h1>
                         <p>SEND AND RECEIVE FAXES FROM ANYWHERE</p>
-                        <img src="../img/background/underline1.png" alt="" class="onlineimg">
+                        <!--<img src="../img/background/underline1.png" alt="" class="onlineimg">-->
+                        <p class="security-header-line" style="margin-top: 14px; width: 90%;"></p>
                         <p>Make the switch to the next generation cloud fax platform</p>
 
-
-                        <button class="btn btn-lg btn-default"><span>STARTING FAXING NOW</span></button>
-                        <p>Simple - Secure - Free to try</p>
+                        <button class="btn btn-lg btn-default button-class" style="margin-top:65px;margin-bottom:0px; background-color:#3bf3c5; color: #fff;"><span>STARTING FAXING NOW</span></button>
+                        <p style="margin-top:20px; margin-bottom: 95px;">Simple - Secure - Free to try</p>
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!--<div id="header" class="header" style="background-image: url(./img/background/business-man-on-mobile.jpeg);">
+        <div class="headergrudient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <h1 style="margin-top: 200px">MOOVE</h1>
+                        <h4>Document workflow for the 21st century</h4>
+                        <div class="btn btn-lg btn-default button-class">MOOVE FASTER</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
     <!--End Header-->
 
     <!--Choose Moove-->
     <div id="choose" class="choose">
-        <div class="container">
-            <h2 class="smspace"><span style="opacity: 0.5">Why Choose</span> MOOVE<span style="opacity: 0.5">?</span></h2>
+        <div class="container-fluid" style="padding-left:16px; padding-right: 16px;">
+            <h3 style="margin-top: 50px;"><span style="opacity: 0.5">Why Choose</span><b> MOOVE</b><span style="opacity: 0.5">?</span></h3>
             <div class="row">
                 <div class="col-lg-4 col-md-4">
-                    <img src="../img/icons/bluekey.png" alt="" class="normalspace iconsize">
-                    <h4>Secure</h4>
-                    <p><b>
+                    <img src="../img/icons/bluekey.png" alt="" class="iconsize">
+                    <h3>Secure</h3>
+                    <p>
                         The MooveFax platform is built with industry-leading security standards. Documents are encrypted at rest and in transport. User authentication, audit trails, and intrusion detection are all built-in features. Learn more about how we protect your data.
-                    </b></p>
+                    </p>
                 </div>
-                <div class="col-lg-4 col-md-4 rowpadding">
+                <div class="col-lg-4 col-md-4">
                     <img src="../img/icons/rocket.png" alt="" class="normalspace rocket iconsize">
-                    <h4>Reliable</h4>
+                    <h3>Reliable</h3>
                     <p>
                         We boast an advanced network infrastructrue built exclusively for fax. We couple direct tier-1 carrier relationships with our proprietary routing technology to ensure industry-leading fax success rates.
                     </p>
 
                 </div>
-                <div class="col-lg-4 col-md-4 rowpadding">
+                <div class="col-lg-4 col-md-4">
                     <img src="../img/icons/space.png" alt="" class="normalspace iconsize">
-                    <h4>Feature Packed</h4>
+                    <h3>Feature Packed</h3>
                     <p>
                         Total flexibility to customize your fax deployment. Want the simplicity of sending and receiving from email? No problem. Looking to integrate? Our Fax API is built for just that. Want to keep your MFDs in the equation? Hello FaxBridge.
                     </p>
@@ -108,44 +156,43 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <img src="../img/background/demo.png" alt="">
+                    <img src="../img/background/demo.png" style="margin-top:150px;" alt="">
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <h4>Lerem Ipsum Set Dolor</h4>
-                    <p>Lerem Ipsum dolor sit amet, consectetur adipiscing elt. Nam molestie nunc commodo nibh interdum feugiat. Praesent id nisi vitae arcu scelerisque gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elt. Nam molestie nunc commodo
-                        nibh interdum feugiat. Praesent id nisi vitae arcu scelerisque gravida</p>
+                    <h3 style="opacity: 0.5; margin-top:150px;">Lerem Ipsum Set Dolor</h3>
+                    <h4 style="text-align: left; margin-top: 63px; margin-bottom: 298px;">Lerem Ipsum dolor sit amet, consectetur adipiscing elt. Nam molestie nunc commodo nibh interdum feugiat. Praesent id nisi vitae arcu scelerisque gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elt. Nam molestie nunc commodo
+                        nibh interdum feugiat. Praesent id nisi vitae arcu scelerisque gravida</h4>
                 </div>
             </div>
         </div>
     </div>
-
     <!--end Demo screenshot-->
+
     <!--Carrier-->
     <div id="carrier" class="carrier">
         <div class="contaner">
             <div class="row">
                 <div class="col-lg-3 col-md-3"></div>
                 <div class="col-lg-6 col-md-6">
-                    <h2 class="fontblue carrierpadding">A Carrier-Grade Fax Solution.</h2>
-                    <h2 class="fontblue">Just For You</h2>
+                    <h3 style="color:#3bf3c5; margin-top: 100px;">A Carrier-Grade Fax Solution.<br>Just For You</h3>
 
-                    <div class="carrierpadding">
-                        <p>
+
+                    <div style="margin-top: 52px;">
+                        <h4>
                             We built Foiply with Enterprise scale deployments in mind, yet priced our plans so companies of all sizes can have access to a rellable VoIP tax solution. 10 pages or a million/ 1 user or 10,000. We've got you covered. Foiply is the online tax service
                             you've been looking for.
-                        </p>
+                        </h4>
                     </div>
-                    <div class="carrierpadding">
-                        <button class="btn btn-lg btn-default"><span>LEARN MORE</span></button>
-                        <button class="btn btn-lg btn-default"><span>SEE PRICING</span></button>
+                    <div>
+                        <button class="btn btn-lg btn-default button-class" style="margin-top:66px;"><span>LEARN MORE</span></button>
+                        <button class="btn btn-lg btn-default button-class carrier-button1"><span>SEE PRICING</span></button>
                     </div>
-                    <div class="carrierpadding">
-                        <p class="header-line" style="width: 60%; margin-left: 20%;"> </p>
-                        <div class="carrierpadding">
-                            <p>Carrier or Value Added Reseller?</p>
-                            <p>Partner with Foiply to add rellable online taxing to you product portfoilo</p>
+                    <div>
+                        <p class="security-header-line" style="margin-top: 60px; width: 56%; margin-left:22%;"></p>
+                        <div>
+                            <h4 style="margin-top:41px;">Carrier or Value Added Reseller?<br> Partner with Foiply to add rellable online taxing to you product portfoilo</h4>
                         </div>
-                        <div class="carrierpadding"><button class="btn btn-lg btn-default"><span>WHITE LABEL FAX</span></button></div>
+                        <div><button class="btn btn-lg btn-default button-class" style="margin-top:78px; margin-bottom:55px;"><span>WHITE LABEL FAX</span></button></div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3"></div>
@@ -160,68 +207,56 @@
     <!--SEVERAL-->
     <div id="several" class="several">
         <div class="container">
-            <h2 style="opacity: 0.5; margin-top: 70px;"> SEVERAL WAYS TO FAX</h2>
-            <div class="row" style="padding-left: 140px;">
-                <div class="col-sm-6 col-lg-6 layout">
-                    <div class="several-border" style="width: 76%; height:368px;">
-                        <p class="security-text">Email to fax</p>
-                        <p class="security-top-line">
-                            <div class="security-icon" style="background-image: url(../img/icons/email.png);"></div>
-                            <!--<ul>
-                                <li><b>Dedicated state of the art firewall and intrusion detection systems</b></li>
-                                <li><b> protection with managed backup solutions</b></li>
-                                <li><b>Distributed DDoS mitigation</b></li>
-                                <li><b>Daily internal security and vulnerability tests</b></li>
-                            </ul>-->
-                            <p style="padding-left:10%; padding-right: 10%;">
-                                Instantly fax-enable any internet connected device. Send and receive faxes right from your email inbox. There's no additional software to download or install. We will deliver your faxes as PDF attachments.
-                            </p>
+            <h3 style="opacity: 0.5; margin-top: 50px;"> SEVERAL WAYS TO FAX</h3>
+            <div class="row" style="margin-top:102px;">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-10 col-md-10">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="sev-packages">
+                            <h4 style="color:#3bf3c5;margin-top:30px;">Email to fax</h4>
+                            <p class="sev-header-line"></p>
+                            <img src="../img/icons/email.png" alt="" class="iconsize">
+                            <p>Instantly fax-enable any internet connected device. Send and receive faxes right from your email inbox. There's no additional software to download or install. We will deliver your faxes as PDF attachments.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-6 layout">
-                    <div class="several-border">
-                        <p class="security-text">Web Portal</p>
-                        <p class="security-top-line">
-                            <div class="security-icon" style="background-image: url(../img/icons/earth.png);"></div>
-                            <!--<ul>
-                                <li><b>Dedicated state of the art firewall and intrusion detection systems</b></li>
-                                <li><b> protection with managed backup solutions</b></li>
-                                <li><b>Distributed DDoS mitigation</b></li>
-                                <li><b>Daily internal security and vulnerability tests</b></li>
-                            </ul>-->
-                            <p style="padding-left:10%; padding-right: 10%;">
-                                Access the MooveFax web interface from any web browser. Our modern and mobile-friendly web portal allows you to view your fax history, send faxes, and manage your account. Our advanced Admin portal gives you the ability to take full control over your
-                                fax solution.
-                            </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-6 layout">
-                    <div class="several-border">
-                        <p class="security-text">Fax API</p>
-                        <p class="security-top-line">
-                            <div class="security-icon" style="background-image: url(../img/icons/1.png);"></div>
-                            <p style="padding-left:10%; padding-right: 10%;">
-                                Our powerful and developer friendly API allows you to integrate and automate fax processes. Get up and running quickly with the ability to scale. Send and receive, get detailed call reporting, and automate user provisioning from our RESTAPI.
-                            </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-6 layout">
-                    <div class="several-border">
-                        <p class="security-text">FAXBRIDGE</p>
-                        <p class="security-top-line">
-                            <div class="security-icon" style="background-image: url(../img/icons/print.png);"></div>
-                            <!--<ul>
-                                <li><b>Dedicated state of the art firewall and intrusion detection systems</b></li>
-                                <li><b> protection with managed backup solutions</b></li>
-                                <li><b>Distributed DDoS mitigation</b></li>
-                                <li><b>Daily internal security and vulnerability tests</b></li>
-                            </ul>-->
-                            <p style="padding-left:10%; padding-right: 10%;">
-                                Instantly fax-enable any internet connected deveic. Send and receive faxes right from your email inox. there's no additional software to download or install. We will deliver your faxes as PDF attachments.
-                            </p>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="sev-packages">
+                            <h4 style="color:#3bf3c5;margin-top:30px;">Email to fax</h4>
+                            <p class="sev-header-line"></p>
+                            <img src="../img/icons/earth.png" alt="" class="iconsize">
+                            <p>Instantly fax-enable any internet connected device. Send and receive faxes right from your email inbox. There's no additional software to download or install. We will deliver your faxes as PDF attachments.</p>
+
+
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-10 col-md-10">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="sev-packages">
+                            <h4 style="color:#3bf3c5;margin-top:30px;">Email to fax</h4>
+                            <p class="sev-header-line"></p>
+                            <img src="../img/icons/1.png" alt="" class="iconsize">
+                            <p>Instantly fax-enable any internet connected device. Send and receive faxes right from your email inbox. There's no additional software to download or install. We will deliver your faxes as PDF attachments.</p>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="sev-packages">
+                            <h4 style="color:#3bf3c5;margin-top:30px;">Email to fax</h4>
+                            <p class="sev-header-line"></p>
+                            <img src="../img/icons/print.png" alt="" class="iconsize">
+                            <p>Instantly fax-enable any internet connected device. Send and receive faxes right from your email inbox. There's no additional software to download or install. We will deliver your faxes as PDF attachments.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-bottom:69px;"></div>
         </div>
     </div>
 
@@ -231,41 +266,39 @@
     <!--Footer-->
     <div id="footer" class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4" style="line-height: 70px">
-                    <img src="../img/logo/Logo Horizontal White.png" alt="#" class="footimg">
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 " style="line-height: 30px ">
+                    <a href="" class=""><img src="../img/logo/Logo Horizontal White.png " alt="# " class="footimg"></a>
                     <p>@Copyright 2017 Moove LLC-All Rights Resered</p>
                 </div>
-                <div class="col-lg-4 col-md-4 footertext">
-                    <div class="col-lg-6 col-md-6">
-                        <p>HOME</p>
-                        <p>ABOUT</p>
-                        <p>FEATURES</p>
-                        <p>PRICING</p>
+                <div class="col-lg-4 col-md-4 footertext ">
+                    <div class="col-lg-6 col-md-6 ">
+                        <p><a href="#" class="" style="color:#fff;">HOME</a></p>
+                        <p><a href="#" class="" style="color:#fff;">ABOUT</a></p>
+                        <p><a href="#" class="" style="color:#fff;">FEATURES</a></p>
+                        <p><a href="#" class="" style="color:#fff;">PRICING</a></p>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                        <p>PRESS</p>
-                        <p>FAQ</p>
-                        <p>CONTACT</p>
-
+                    <div class="col-lg-6 col-md-6 ">
+                        <p><a href="#" class="" style="color:#fff;">PRESS</a></p>
+                        <p><a href="#" class="" style="color:#fff;">FAQ</a></p>
+                        <p><a href="#" class="" style="color:#fff;">CONTACT</a></p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4" style="text-align: center; padding-top:100px;">
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <div class="col-lg-4 col-md-4 " style="text-align: center; padding-top:78px; padding-bottom: 138.72px;">
+                    <a href="# "><i class="fa fa-twitter" aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-facebook " aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-pinterest " aria-hidden="true "></i></a>
                 </div>
 
             </div>
         </div>
     </div>
     <!--end footer-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <script src="../js/bootstrap.min.js "></script>
+    <script src="../js/script.js "></script>
 
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
